@@ -15,6 +15,7 @@ setup(
     description='The funniest joke in the world',
     packages=['netlsd',],
     url='http://github.com/xgfs/netlsd',
+    download_url = 'https://github.com/xgfs/netlsd/archive/0.1.tar.gz',
     license='MIT',
     install_requires=[
         'numpy',
@@ -28,5 +29,5 @@ setup(
         'Topic :: Scientific/Engineering :: Mathematics',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
 )
