@@ -12,6 +12,8 @@ except ImportError:
 setup(
     name='NetLSD',
     version='0.0.1',
+    author='Anton Tsitsulin',
+    author_email='anton.tsitsulin@hpi.de',
     description='The funniest joke in the world',
     packages=['netlsd',],
     url='http://github.com/xgfs/netlsd',

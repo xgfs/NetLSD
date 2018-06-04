@@ -5,7 +5,7 @@ NetLSD
 NetLSD is a family of spectral graph descriptros. Given a graph, NetLSD computes a low-dimensional vector representation that can be used for different tasks.
 
 Quick start
------
+-----------
 
 .. code-block:: python
 
