@@ -14,7 +14,7 @@ setup(
     version='0.0.1',
     author='Anton Tsitsulin',
     author_email='anton.tsitsulin@hpi.de',
-    description='The funniest joke in the world',
+    description='NetLSD descriptors for graphs. Compare and analyze graph structure on multiple levels!',
     packages=['netlsd',],
     url='http://github.com/xgfs/netlsd',
     download_url = 'https://github.com/xgfs/netlsd/archive/0.1.tar.gz',
