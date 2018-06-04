@@ -11,7 +11,7 @@ except ImportError:
 
 setup(
     name='NetLSD',
-    version='0.0.1',
+    version='1.0.0',
     author='Anton Tsitsulin',
     author_email='anton.tsitsulin@hpi.de',
     description='NetLSD descriptors for graphs. Compare and analyze graph structure on multiple levels!',
