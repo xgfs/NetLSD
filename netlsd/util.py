@@ -150,11 +150,11 @@ def mat_to_laplacian(mat, normalized):
 
     """
     if sps.issparse(mat):
-        if np.all(mat.diagonal()>=0) and np.all(mat.diagonal() >= 0): # Check diagonal
+        if np.all(mat.diagonal()>=0): # Check diagonal
             if np.all((mat-sps.diags(mat.diagonal())).data <= 0): # Check off-diagonal elements
                 return mat
     else:
-        if np.all(np.diag(mat)>=0) and np.all(np.diag(mat)>=0): # Check diagonal
+        if np.all(np.diag(mat)>=0): # Check diagonal
             if np.all(mat - np.diag(mat) <= 0): # Check off-diagonal elements
                 return mat
     deg = np.squeeze(np.asarray(mat.sum(axis=1)))
