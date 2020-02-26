@@ -236,7 +236,7 @@ def _wkt(eivals, timescales, normalization, normalized_laplacian):
     for idx, t in enumerate(timescales):
         wkt[idx] = np.sum(np.exp(-1j * t * eivals))
     if isinstance(normalization, np.ndarray):
-        return hkt / normalization
+        return wkt / normalization
     if normalization == 'empty' or normalization == True:
         return wkt / nv
     if normalization == 'complete':
